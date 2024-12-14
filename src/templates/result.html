@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+        <title>Веб-приложение</title>
+    </head>
+    <body>
+        <div class="center">
+             <table>
+                <tr>
+                    <td colspan="2">
+                        <h2>Исходное изображение</h2>
+                        <a href="{{ filename_image }}" target="_blank">
+                            <img src="{{ filename_image }}" width="1200">
+                        </a>
+                    </td>
+                    <td colspan="2">
+                        <h2>График распределения цветов<br>исходного изображения</h2>
+                        <a href="{{ filename_image_plot }}" target="_blank">
+                            <img src="{{ filename_image_plot }}" width="1200">
+                        </a>
+                    </td>
+               </tr>
+                <tr>
+                    <td>
+                        <h2>Изображение левого верхнего угла<br></h2>
+                        <a href="{{ filename_image_top_left }}" target="_blank">
+                            <img src="{{ filename_image_top_left }}" width="300">
+                        </a>
+                    </td>
+                    <td>
+                        <h2>График распределения цветов<br>изображения левого верхнего угла</h2>
+                        <a href="{{ filename_image_top_left_plot }}" target="_blank">
+                            <img src="{{ filename_image_top_left_plot }}" width="300">
+                        </a>
+                    </td>
+                    <td>
+                        <h2>Изображение правого верхнего угла<br></h2>
+                        <a href="{{ filename_image_top_right }}" target="_blank">
+                            <img src="{{ filename_image_top_right }}" width="300">
+                        </a>
+                    </td>
+                    <td>
+                        <h2>График распределения цветов<br>изображения правого верхнего угла</h2>
+                        <a href="{{ filename_image_top_right_plot }}" target="_blank">
+                            <img src="{{ filename_image_top_right_plot }}" width="300">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                     <td>
+                        <h2>Изображение левого нижнего угла<br></h2>
+                        <a href="{{ filename_image_bottom_left }}" target="_blank">
+                            <img src="{{ filename_image_bottom_left }}" width="300">
+                        </a>
+                    </td>
+                    <td>
+                        <h2>График распределения цветов<br>изображения левого нижнего угла</h2>
+                        <a href="{{ filename_image_bottom_left_plot }}" target="_blank">
+                            <img src="{{ filename_image_bottom_left_plot }}" width="300">
+                        </a>
+                    </td>
+                    <td>
+                        <h2>Изображение правого нижнего угла<br></h2>
+                        <a href="{{ filename_image_bottom_right }}" target="_blank">
+                            <img src="{{ filename_image_bottom_right }}" width="300">
+                        </a>
+                    </td>
+                    <td>
+                        <h2>График распределения цветов<br>изображения правого нижнего угла</h2>
+                        <a href="{{ filename_image_bottom_right_plot }}" target="_blank">
+                            <img src="{{ filename_image_bottom_right_plot }}" width="300">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+     </body>
+</html>

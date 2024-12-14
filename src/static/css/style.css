@@ -1,0 +1,87 @@
+h1 {
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	color: #000000;
+}
+
+
+h2 {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	color: #000000;
+}
+
+
+p.task {
+	font-size: 24px;
+	text-indent: 1.5em;
+	text-align: justify;
+}
+
+
+p.message {
+	font-size: 24px;
+	text-indent: 1.5em;
+	text-align: justify;
+}
+
+
+div.center {
+	text-align: center;
+}
+
+
+a {
+    font-size: 28px;
+	text-decoration: none;
+}
+
+
+ul {
+	list-style-type: none;
+	text-align: left;
+}
+
+
+table {
+    border: 0px;
+	margin: auto;
+}
+
+
+td {
+	border: 0px;
+
+	text-align: center;
+	vertical-align: center;
+}
+
+
+form {
+	text-align: center;
+	margin : auto;
+	background: #FFFFFF;
+}
+
+
+label, input, select {
+	font-weight: bold;
+    font-size: 24px;
+}
+
+
+fieldset {
+	text-align: center;
+	width: 900px;
+	margin: auto;
+}
+
+
+legend {
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 24px;
+}
+
