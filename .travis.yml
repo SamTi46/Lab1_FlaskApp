@@ -1,7 +1,7 @@
 language: python
 
 install:
-- pip install -r src/requirements.txt
+- pip3 install -r src/requirements.txt
 script:
 - cd src
 - python3 main.py
